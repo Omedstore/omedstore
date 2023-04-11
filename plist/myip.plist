@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/lightroom-8.2.1-1680637430/Lightroom_8.2.1_1680637430.ipa</string>
+					<string>https://archive.org/download/my-ip-1.2.5-1681204234/My%20IP_1.2.5_1681204234.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
+					<string>>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,21 +27,21 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
+					<string>>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.videostarhdj</string>
+				<string>com.bz.My-IP2</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Lightroom</string>
+				<string>MyIp</string>
 				<key>title</key>
-				<string>Lightroom</string>
+				<string>MyIp</string>
 			</dict>
 		</dict>
 	</array>

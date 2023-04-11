@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>org.ppsspp.ppsspp1</string>
+				<string>org.ppsspp.ppsspp</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
