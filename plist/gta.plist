@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/gta-mod-2.2-1681113894/GTA%20MOD_2.2_1681113894.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.rockstargames.gta3sahd</string>
+				<key>bundle-version</key>
+				<string>438</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>Gta Kurdish</string>
+				<key>title</key>
+				<string>Gta Kurdish</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
