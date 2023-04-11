@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/esign-omko-store/ESign_OMKO%20STORE.ipa</string>
+					<string>https://archive.org/download/pubg-mobile-11-1681113399/PUBG%20MOBILE_11_1681113399.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
+					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,21 +27,21 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
+					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>OMKO - STORE -Esign "Telegram</string>
-				<key>OMKO - STORE -Esign "Telegramndle-version</key>
+				<string>com.tencent.igmk1</string>
+				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Video Star Pro</string>
+				<string>PUBG GL HACK</string>
 				<key>title</key>
-				<string>Video Star Pro</string>
+				<string>PUBG GL HACK</string>
 			</dict>
 		</dict>
 	</array>
