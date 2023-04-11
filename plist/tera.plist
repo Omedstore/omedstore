@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/tera-box-3.9.7-1681119695/TeraBox_3.9.7_1681119695.ipa</string>
+					<string>https://archive.org/download/tera-box-omko-store/TeraBox%20OMKO%20STORE.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.dubox.drive5</string>
+				<string>com.dubox.drive123</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
