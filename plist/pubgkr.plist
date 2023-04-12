@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/esign-4.7.7.2-1681235212/ESign_4.7.7.2_1681235212.ipa</string>
+					<string>https://archive.org/download/pubg-mobile-2.5.0-1681305947/PUBG%20MOBILE_2.5.0_1681305947.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
+					<string>https://archive.org/download/aa-9-decbf-cb-33-4-d-19-b-9-ef-5-f-50-c-6134-a-87/__ia_thumb.jpg</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,13 +27,13 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
+					<string>https://archive.org/download/aa-9-decbf-cb-33-4-d-19-b-9-ef-5-f-50-c-6134-a-87/__ia_thumb.jpg</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.pubg.krmobile123</string>
+				<string>org.ppsspp.ppsspp12</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
