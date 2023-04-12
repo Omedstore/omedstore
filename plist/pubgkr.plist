@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://archive.org/download/aa-9-decbf-cb-33-4-d-19-b-9-ef-5-f-50-c-6134-a-87/__ia_thumb.jpg</string>
+					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -27,21 +27,21 @@
 					<key>needs-shine</key>
 					<false/>
 					<key>url</key>
-					<string>https://archive.org/download/aa-9-decbf-cb-33-4-d-19-b-9-ef-5-f-50-c-6134-a-87/__ia_thumb.jpg</string>
+					<string>https://archive.org/download/img-0705_202303/IMG_0705.jpg</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.esign2</string>
+				<string>com.pubg.krmobile123</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Esign</string>
+				<string>PUBG KR</string>
 				<key>title</key>
-				<string>Esign</string>
+				<string>PUBG KR</string>
 			</dict>
 		</dict>
 	</array>
