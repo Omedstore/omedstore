@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/video-star-omko-store/Video%20Star%20OMKO%20STORE%28%29.ipa</string>
+					<string>https://archive.org/download/pubg-mobile-2.5.0-1681247527/PUBG%20MOBILE_2.5.0_1681247527.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,15 +33,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.videostar1</string>
+				<string>‏com.pubg.krmobile12</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Video Star </string>
+				<string>PUBG GL MOBILE</string>
 				<key>title</key>
-				<string>Video Star </string>
+				<string>PUBG GL MOBILE</string>
 			</dict>
 		</dict>
 	</array>
