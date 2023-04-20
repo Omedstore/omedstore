@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/video-star-pro-12.0.2-1681493330/Video%20Star%20Pro_12.0.2_1681493330.ipa</string>
+					<string>https://archive.org/download/video-star-1pro-omko-store/Video%20Star_1pro%20OMKO%20STORE.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.videostarpro22</string>
+				<string>com.frontierdesign.videostarpro2212</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
