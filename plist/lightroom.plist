@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/blacklist-omko-store_202304/Blacklist%20OMKO%20STORE.ipa</string>
+					<string>https://archive.org/download/lightroom-8.2.2-1682092191/Lightroom_8.2.2_1682092191.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.adobe.blacklist11</string>
+				<string>com.adobe.lrmobilephone88111</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
