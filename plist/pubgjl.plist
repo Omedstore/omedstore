@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/pubg-mobile-2.5.0-1681247527/PUBG%20MOBILE_2.5.0_1681247527.ipa</string>
+					<string>https://archive.org/download/pubg-gl-25-1682511408/PUBG%20%20GL_25_1682511408.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.tencent.ig11‏</string>
+				<string>com.tencent.ig1124631‏</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
