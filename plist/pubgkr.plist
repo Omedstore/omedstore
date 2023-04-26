@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/pubg-kr-omko-store/PUBG%20KR%20OMKO%20STORE.ipa</string>
+					<string>https://archive.org/download/pubg-mobile-kr-2.5.0-kr/PUBG%20MOBILE%20KR_2.5.0_KR.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.quangblue.krmobile11111</string>
+				<string>com.pubg.krmobile14567</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
