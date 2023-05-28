@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/ppsspp-1685102631/PPSSPP__1685102631.ipa</string>
+					<string>https://archive.org/download/ppsspp-1682507003/PPSSPP__1682507003.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>org.ppsspp.ppsspp1</string>
+				<string>org.ppsspp.ppsspp12132</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>

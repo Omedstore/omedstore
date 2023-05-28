@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/tera-box-3.7.7-1685103941_202305/TeraBox_3.7.7_1685103941.ipa</string>
+					<string>https://archive.org/download/tera-box-3.7.7-1682507857/TeraBox_3.7.7_1682507857.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.dubox.drive12</string>
+				<string>com.dubox.drive123127</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>

@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/blacklist-1.0-1685103520/Blacklist_1.0_1685103520.ipa</string>
+					<string>https://archive.org/download/blacklist-1.0-1682507404/Blacklist_1.0_1682507404.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.adobe.blacklist112</string>
+				<string>com.adobe.blacklist11123</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
