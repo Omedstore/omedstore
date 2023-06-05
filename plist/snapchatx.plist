@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/snapcaht-2-11.71.0-1685974209/Snapcaht%202_11.71.0_1685974209.ipa</string>
+					<string>https://archive.org/download/snapcaht-2-11.71.0-1685987677/Snapcaht%202_11.71.0_1685987677.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.toyopagroup.picabY7‏</string>
+				<string>com.toyopagroup.picabY50‏</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
