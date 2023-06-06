@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/pubg-mobile-2.6.0-1685995172/PUBG%20MOBILE_2.6.0_1685995172.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>https://archive.org/download/aa-9-decbf-cb-33-4-d-19-b-9-ef-5-f-50-c-6134-a-87/__ia_thumb.jpg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>https://archive.org/download/aa-9-decbf-cb-33-4-d-19-b-9-ef-5-f-50-c-6134-a-87/__ia_thumb.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.tencent.igxo12</string>
+				<key>bundle-version</key>
+				<string>438</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>PUBG GL MOBILE</string>
+				<key>title</key>
+				<string>📥PUBG GL MOBILE📥
+
+‎تایەبەتە بە چەناڵی
+
+✔️OMKO_STORE✔️	
+
+لەتێلێگرام
+
+ </string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
