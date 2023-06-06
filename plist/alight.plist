@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>https://archive.org/download/alight-motion-omko-store/Alight%20Motion%20OMKO%20STORE.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>https://archive.org/download/aa-9-decbf-cb-33-4-d-19-b-9-ef-5-f-50-c-6134-a-87/__ia_thumb.jpg</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<false/>
+					<key>url</key>
+					<string>https://archive.org/download/aa-9-decbf-cb-33-4-d-19-b-9-ef-5-f-50-c-6134-a-87/__ia_thumb.jpg</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.alightcreative.motion1</string>
+				<key>bundle-version</key>
+				<string>438</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>subtitle</key>
+				<string>Alight Motion</string>
+				<key>title</key>
+				<string>📥Alight Motion📥
+
+‎تایەبەتە بە چەناڵی
+
+✔️OMKO_STORE✔️	
+
+‎لەتێلێگرام
+
+ </string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
