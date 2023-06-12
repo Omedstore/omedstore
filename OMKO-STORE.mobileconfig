@@ -6,7 +6,9 @@
 <dict>
 <key>default</key>
 <string>‎کۆگای -OMKO STORE
-‎تایبەت بە یاری و بەرنامەی مۆد کراو بۆ ئایفۆن و ئایپاد بەبێ سیدیا و کۆمپیتەر 
+‎تایبەت بە یاری و 
+
+‎بەرنامەی مۆد کراو بۆ ئایفۆن و ئایپاد بەبێ سیدیا و کۆمپیتەر 
 
 ‎لەگەل OMKO STORE چیتر پێویستت بە 
 ‎سیدیا و کۆمپیتەر نابێت
@@ -25,14 +27,16 @@ special for games and mode progr
      <key>IsRemovable</key>
      <true/>
      <key>Label</key>
-     <string></string>
+     <string>OMKO STORE</string>
      <key>PayloadDescription</key>
      <string>Adds a Web Clip.</string>
      <key>PayloadDisplayName</key>
-     <string>Web Clip ()</string>
+     <string>Web Clip (OMKO STORE)</string>
      <key>PayloadIdentifier</key>
      <string>‎کۆگای -OMKO STORE
-‎تایبەت بە یاری و بەرنامەی مۆد کراو بۆ ئایفۆن و ئایپاد بەبێ سیدیا و کۆمپیتەر 
+‎تایبەت بە یاری و 
+
+‎بەرنامەی مۆد کراو بۆ ئایفۆن و ئایپاد بەبێ سیدیا و کۆمپیتەر 
 
 ‎لەگەل OMKO STORE چیتر پێویستت بە 
 ‎سیدیا و کۆمپیتەر نابێت
@@ -41,7 +45,7 @@ special for games and mode progr
 
 𝐎𝐖𝐍𝐄𝐑❥ @OMK0O</string>
      <key>PayloadOrganization</key>
-     <string>Download Profile 📢</string>
+     <string>Download Profile</string>
      <key>PayloadType</key>
      <string>com.apple.webClip.managed</string>
      <key>PayloadUUID</key>
@@ -56,7 +60,9 @@ special for games and mode progr
  </array>
  <key>PayloadDescription</key>
  <string>‎کۆگای -OMKO STORE
-‎تایبەت بە یاری و بەرنامەی مۆد کراو بۆ ئایفۆن و ئایپاد بەبێ سیدیا و کۆمپیتەر 
+‎تایبەت بە یاری و 
+
+‎بەرنامەی مۆد کراو بۆ ئایفۆن و ئایپاد بەبێ سیدیا و کۆمپیتەر 
 
 ‎لەگەل OMKO STORE چیتر پێویستت بە 
 ‎سیدیا و کۆمپیتەر نابێت
@@ -68,7 +74,9 @@ special for games and mode progr
  <string>OMKO STORE</string>
  <key>PayloadIdentifier</key>
  <string>‎کۆگای -OMKO STORE
-‎تایبەت بە یاری و بەرنامەی مۆد کراو بۆ ئایفۆن و ئایپاد بەبێ سیدیا و کۆمپیتەر 
+‎تایبەت بە یاری و 
+
+‎بەرنامەی مۆد کراو بۆ ئایفۆن و ئایپاد بەبێ سیدیا و کۆمپیتەر 
 
 ‎لەگەل OMKO STORE چیتر پێویستت بە 
 ‎سیدیا و کۆمپیتەر نابێت
@@ -77,7 +85,7 @@ special for games and mode progr
 
 𝐎𝐖𝐍𝐄𝐑❥ @OMK0O</string>
  <key>PayloadOrganization</key>
- <string>Download Profile 📢</string>
+ <string>Download Profile</string>
  <key>PayloadRemovalDisallowed</key>
  <false/>
  <key>PayloadType</key>
