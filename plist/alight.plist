@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/alight-motion-omko-store/Alight%20Motion%20OMKO%20STORE.ipa</string>
+					<string>https://archive.org/download/alight-motion-1686826732/Alight%20Motion_1686826732.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.alightcreative.motion1</string>
+				<string>com.alightcreative.motion19</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
