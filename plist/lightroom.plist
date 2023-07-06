@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/lightroom-8-omko-store_202306/Lightroom_8OMKO%20STORE.ipa</string>
+					<string>https://archive.org/download/lightroom-8.2.0-1688642924/Lightroom_8.2.0_1688642924.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.adobe.lrmobilephone19</string>
+				<string>com.adobe.lrmobilephone1111</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
