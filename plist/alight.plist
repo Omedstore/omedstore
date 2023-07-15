@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/alight-motion-5.0.1-1688830810/Alight%20Motion_5.0.1_1688830810.ipa</string>
+					<string>https://archive.org/download/alight-motion-5.0.1-1689449337/Alight%20Motion_5.0.1_1689449337.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.alightcreative.motion1111</string>
+				<string>com.alightcreative.motion15372</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>

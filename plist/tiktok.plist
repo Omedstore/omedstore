@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/tik-tok-26.6.1-1688833722/TikTok_26.6.1_1688833722.ipa</string>
+					<string>https://archive.org/download/tik-tok-26.6.1-1689453606/TikTok_26.6.1_1689453606.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.zhiliaoapp.gaelan2171771</string>
+				<string>com.zhiliaoapp.gaelan211111</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
