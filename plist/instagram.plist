@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/instagram-omko-store/Instagram%20OMKO%20STORE.ipa</string>
+					<string>https://archive.org/download/instagram-omko-store_202307/Instagram%20OMKO%20STORE.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.burbn.instagram17272</string>
+				<string>com.burbn.instagram17272111</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
