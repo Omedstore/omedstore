@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/car-parking-4.7.7-1690020278/Car%20Parking_4.7.7_1690020278.ipa</string>
+					<string>https://archive.org/download/car-parking-omko-store_20230724/Car%20Parking%20OMKO%20STORE.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.aidana.cardriving.ios17</string>
+				<string>com.aidana.cardriving.ios123</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
