@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/lightroom-8.2.0-1690549305/Lightroom_8.2.0_1690549305.ipa</string>
+					<string>https://archive.org/download/lightroom-8.2.0-1690907563/Lightroom_8.2.0_1690907563.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.adobe.lrmobilephone11118384</string>
+				<string>com.adobe.lrmobilephone1111777</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
