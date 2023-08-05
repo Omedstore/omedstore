@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/snapchat-12.17.0-1690913197/Snapchat_12.17.0_1690913197.ipa</string>
+					<string>https://archive.org/download/snapchat-12.17.0-1691243775/Snapchat_12.17.0_1691243775.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.toyopagroup.picaboo12211</string>
+				<string>com.toyopagroup.picaboo122</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
