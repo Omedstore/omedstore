@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/instagram-290.1-1691242876/instagram-290.1-1691242876_archive.torrent</string>
+					<string>https://archive.org/download/instagram-290.1-1691840500/Instagram_290.1_1691840500.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.burbn.instagram17</string>
+				<string>com.burbn.instagram17272111</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
