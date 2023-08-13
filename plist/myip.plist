@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/my-ip-1.2.5-1691837474/My%20IP_1.2.5_1691837474.ipa</string>
+					<string>https://archive.org/download/my-ip-1.2.5-1691925480/My%20IP_1.2.5_1691925480.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.bz.My-IP12</string>
+				<string>com.bz.My-IP121122</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
