@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/video-star-11.2.8-1691923719/Video%20Star_11.2.8_1691923719.ipa</string>
+					<string>https://archive.org/download/alight-motion-5.0.1-1691924951/Alight%20Motion_5.0.1_1691924951.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,23 +33,23 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.videostarpro114</string>
+				<string>com.alightcreative.motion18392</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Video Star Pro</string>
+				<string>Cute CUT Pro</string>
 				<key>title</key>
-				<string>📥Video Star Pro📥
+				<string>📥Cute CUT Pro📥
 
 ‎تایەبەتە بە چەناڵی
 
 ✔️OMKO_STORE✔️	
 
-لەتێلێگرام
+‎لەتێلێگرام
 
-</string>
+ </string>
 			</dict>
 		</dict>
 	</array>

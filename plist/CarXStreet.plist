@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/video-star-11.2.8-1691923719/Video%20Star_11.2.8_1691923719.ipa</string>
+					<string>>https://archive.org/download/roblox-2.582.400-1691925224/Roblox_2.582.400_1691925224.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,15 +33,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.videostarpro114</string>
+				<string>com.roblox.robloxmobile111938</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Video Star Pro</string>
+				<string>CarX Street</string>
 				<key>title</key>
-				<string>📥Video Star Pro📥
+				<string>📥CarX Street📥
 
 ‎تایەبەتە بە چەناڵی
 
@@ -49,7 +49,7 @@
 
 لەتێلێگرام
 
-</string>
+ </string>
 			</dict>
 		</dict>
 	</array>

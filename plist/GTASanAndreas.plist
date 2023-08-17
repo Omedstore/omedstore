@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/video-star-11.2.8-1691923719/Video%20Star_11.2.8_1691923719.ipa</string>
+					<string>https://archive.org/download/esign-omko-store_202308/ESign%20OMKO%20STORE.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,23 +33,23 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.frontierdesign.videostarpro114</string>
+				<string>com.rockstargames.gta3sahd12</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>subtitle</key>
-				<string>Video Star Pro</string>
+				<string>GTA San Andreas</string>
 				<key>title</key>
-				<string>📥Video Star Pro📥
+				<string>📥GTA San Andreas📥
 
 ‎تایەبەتە بە چەناڵی
 
 ✔️OMKO_STORE✔️	
 
-لەتێلێگرام
+‎لەتێلێگرام
 
-</string>
+ </string>
 			</dict>
 		</dict>
 	</array>
