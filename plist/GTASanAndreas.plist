@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/esign-omko-store_202308/ESign%20OMKO%20STORE.ipa</string>
+					<string>https://archive.org/download/gta-sa-2.02.07-1692395496/GTA%20SA_2.02.07_1692395496.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.rockstargames.gta3sahd1232</string>
+				<string>com.rockstargames.gta3sahd12</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
