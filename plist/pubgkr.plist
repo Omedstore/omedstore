@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/pubg-mobile-2.7.0-1692706721/PUBG%20MOBILE_2.7.0_1692706721.ipa</string>
+					<string>https://archive.org/download/pubg-mobile-2.7.0-1692787241/PUBG%20MOBILE_2.7.0_1692787241.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.pubg.krmobilev3</string>
+				<string>com.pubg.krmobilev3753</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
