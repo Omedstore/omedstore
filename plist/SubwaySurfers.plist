@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/subway-surf-3.15.0-1692750215/Subway%20Surf%20_3.15.0_1692750215.ipa</string>
+					<string>https://archive.org/download/subway-surf-3.15.0-1693034797/Subway%20Surf%20_3.15.0_1693034797.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.kiloo.subwaysurfers174</string>
+				<string>com.kiloo.subwaysurfers141</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
