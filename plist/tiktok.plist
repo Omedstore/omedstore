@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/tik-tok-30.7.0-1693037035_202308/TikTok_30.7.0_1693037035.ipa</string>
+					<string>https://archive.org/download/tik-tok-30.7.0-1693231142/TikTok_30.7.0_1693231142.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.zhiliaoapp.musically200</string>
+				<string>com.zhiliaoapp.musically2000736</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
