@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://archive.org/download/org-2023-2023.1.7-1693230159/ORG%202023%20_2023.1.7_1693230159.ipa</string>
+					<string>https://archive.org/download/org-2023-2023.1.7-1693415154_202308/ORG%202023%20_2023.1.7_1693415154.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.sofeh.ios.musicstudio12844</string>
+				<string>com.sofeh.ios.musicstudio123266</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
