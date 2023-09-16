@@ -1,32 +1,6 @@
 :root {
-	--f7-theme-color: #000;
-	--f7-theme-color-rgb: 95, 219, 228;
-	--f7-theme-color-shade: #000;
-	--f7-theme-color-tint: #000;
-}
-
-.navbar-large-collapsed .topRightIcons {
-	-webkit-transition: opacity 0.1s ease-in-out;
-    -moz-transition: opacity 0.1s ease-in-out;
-    -ms-transition: opacity 0.1s ease-in-out;
-    -o-transition: opacity 0.1s ease-in-out;
-    transition: opacity 0.1s ease-in-out;
-    opacity: 0;
-}
-
-.cat-icons {
-    width: 36px;
-    height: 36px;
-    border-radius: 25%;
-}
-
-.ml12 {
-  font-weight: 200;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
-}
-
-.ml12 .letter {
-  line-height: 1em;
+  --f7-theme-color: #1DA1F2;
+  --f7-theme-color-rgb: 95, 219, 228;
+  --f7-theme-color-shade: #3cd3de;
+  --f7-theme-color-tint: #82e3ea;
 }
