@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://sprend.com/d?C=d02bc15c7aa04dbf83f5e095a012899a</string>
+					<string>https://sprend.com/d?C=47ea2a16423e44ea9185b31ca079f1f0</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -33,7 +33,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.chinamobile.jsfqdapp1551</string>
+				<string>com.chinamobile.jsfqdapp8373</string>
 				<key>bundle-version</key>
 				<string>438</string>
 				<key>kind</key>
