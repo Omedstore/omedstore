@@ -1,1071 +1,330 @@
 <!DOCTYPE html>
 <html>
-	
 <head>
-		<meta charset="utf-8">
-		<meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap: content:">
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
-		<meta name="theme-color" content="#1DA1F2">
-		<meta name="format-detection" content="telephone=no">
-		<meta name="msapplication-tap-highlight" content="no">
-		<title>OMKO STORE</title>
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <link rel="apple-touch-icon" link rel="icon" type="image/png"> <link rel="apple-touch-icon" href="images/icon.png">			
-		<link rel="apple-touch-icon" href="https://omkostore.netlify.app/assets/icon/icon.png">
-		<link rel="icon" href="https://omkostore.netlfiy.app/assets/icon/icon.png">
-		<link rel="stylesheet" href="framework7/css/framework7.bundle.min.css">
-		<link rel="stylesheet" href="css/icons.css">
-		<link rel="stylesheet" href="css/app.css">
-	</head>
-	<body>
-		<div id="app">
-			<div class="views tabs safe-areas">
-				<div class="toolbar toolbar-bottom tabbar-labels">
-					<div class="toolbar-inner">
-						<a href="#homeTab" class="tab-link tab-link-active">
-							<i class="icon f7-icons if-not-md">today</i>
-							<i class="icon material-icons if-md">today</i>
-							<span class="tabbar-label">سه‌ره‌كی</span>
-						</a>
-						<a href="#appsTab" class="tab-link">
-							<i class="icon f7-icons if-not-md">rectangle_fill_on_rectangle_angled_fill</i>
-							<i class="icon material-icons if-md">rectangle_fill_on_rectangle_angled_fill</i>
-							<span class="tabbar-label">ئه‌په‌كان</span>
-						</a>
-						<a href="#server" class="tab-link">
-							<i class="icon f7-icons if-not-md">square_stack_3d_down_right_fill</i>
-							<i class="icon material-icons if-md">square_stack_3d_down_right_fill</i>
-							<span class="tabbar-label">سێرفەری تر</span>
-						</a>
-						<a href="#creditsTab" class="tab-link">
-							<i class="icon f7-icons if-not-md">info_circle_fill</i>
-							<i class="icon material-icons if-md">info_circle_fill</i>
-							<span class="tabbar-label">به‌ڕێوبه‌ر</span>
-						</a>
-					</div>
-				</div>
-
-				<div id="view-home" class="view view-main view-init tab tab-active">
-					<div class="page" data-name="home">
-						<div class="navbar navbar-large">
-							<div class="navbar-bg"></div>
-							<div class="navbar-inner">					
-								<div class="title sliding">OMKO STORE</div>
-		<a onclick="location.reload();"><i class="f7-icons">arrow_clockwise_circle_fill</i></a>	
-								</i></a>						
-								<div class="title-large">	
-									<div class="title-large-text" style="text-align: right;">OMKO STORE</div>
-								</div>
-							</div>
-						</div>
-					<div class="tabs">
-					<div class="tab tab-active page-content" id="homeTab">
-				<div class="block-title" style="text-align: right;">پێگه‌كان</div>
-
-				<div class="block block-strong">
-					<div class="row">
-						<div class="col-50">
-							<a href="https://www.instagram.com/ll.0mk0o.ll" class="button button-raised button-fill external">له‌ ئنستاگرام</a>
-						</div>
-						<div class="col-50">
-							<a href="https://t.me/OMK0O" class="button button-raised button-fill external">له‌ ته‌له‌گرام</a>
-						</div>
-						<div class="col" style="margin-top: 16px">
-							<a href="https://t.me/OMKO_STORE" class="button button-raised button-fill external">له‌ چه‌ناڵی ته‌له‌گرام‌</a>
-						</div>
-					</div>
-				</div>
-				<div class="block-title" style="text-align: right;">زۆرترین داواكاری</div>
-				<div class="list media-list" id="all">
-					<ul>
-						<li>
-							<a href="#" style="color: inherit;" class="popup-open">
-									<div class="item-title-row">
-							</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-							<div onclick="location='OMKO-STORE.mobileconfig'" class="item-content">
-								<div class="item-media">
-									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/icon.png">
-								</div>
-								<div class="item-inner">
-									<div class="item-title-row">
-										<div class="item-title">Download Profile</div>
-										<div class="item-title" style="color: #808080">v6.1.1</div>
-									</div>
-									<div class="item-title-row">
-										<div class="item-subtitle">دابه زاندني ئه م ستوره بو ناو موبايله كه ت</div>
-										<div class="item-subtitle" style="color: #808080">‌پروفايلي</div>
-									</div>
-								</div>
-							</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-							<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/videostarpro.plist'" class="item-content">
-								<div class="item-media">
-									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostarpro.png">
-								</div>
-								<div class="item-inner">
-									<div class="item-title-row">
-										<div class="item-title">Video Star Pro</div>
-										<div class="item-title" style="color: #808080">v8.3.2</div>
-									</div>
-									<div class="item-title-row">
-										<div class="item-subtitle">هه موو به شه کانی كراوه</div>
-										<div class="item-subtitle" style="color: #808080">کۆد بە لۆن ئیشئەکات</div>
-									</div>
-								</div>
-							</div>
-							</a>
-						</li>
-						<li>
-							<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-							<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/videostar.plist'" class="item-content">
-								<div class="item-media">
-									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostar.png">
-								</div>
-								<div class="item-inner">
-									<div class="item-title-row">
-										<div class="item-title">videostar ++</div>
-										<div class="item-title" style="color: #808080">v8.3.2</div>
-									</div>
-									<div class="item-title-row">
-										<div class="item-subtitle">کیشه ی ترانسفورم و کود چاکراوه</div>
-										<div class="item-subtitle" style="color: #808080">کۆد ئیشناکات</div>
-									</div>
-								</div>
-							</div>
-							</a>
-						</li>
-						<!--  
-							
-							<li>
-							<a href="#" style="color: inherit;" class="popup-open" data-popup="#appleid">
-							<div class="item-content">
-								<div class="item-media">
-									<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/icon.png">
-								</div>
-								<div class="item-inner">
-									<div class="item-title-row">
-										<div class="item-title">ئەپڵ ئایدی</div>
-									</div>
-									<div class="item-title-row">
-										<div class="item-subtitle">ئەپڵ ئایدی بۆ دابەزاندنی بەرنامە و یاری پارەکان</div>
-									</div>
-								</div>
-							</div>
-							</a>
-						</li>
-									--> 		
-								 			</ul>
-				</div>
-			<div class="block-title" style="text-align: right;">پرسیار؟</div>
-			<div class="block block-strong">
-				<h2 style="text-align: right;">بۆچی ئه‌په‌‌كان كار ناكات لی من ؟</h2>
-				<p style="font-size: 15px;text-align: right;">هه‌ركاتێك ئه‌پێكت دابه‌زاند ڕه‌ش بوو یان كراشی كرد ئه‌وه‌ له‌لایه‌ن ئه‌پڵه‌وه‌ وه‌ستێنراوه‌ پێویسته‌ نوێكرته‌وه‌</p>
-
-			</div>
-			<div class="block-title" style="text-align: right;">ده‌رباره‌ فێرکاری  </div>
-			<div class="block block-strong">
-				<h2 style="text-align: right;">فێرکاری  </h2>
-				<p style="font-size: 15px;text-align: right">سەرەتا چەناڵەکەمان ناوی بینکۆد بۆ امكو بوو تەنها بین کۆدمان پۆست ئەکرد دوای ئەوەی گەیشتین بە ١٥٠ ئەندام       سپاس بۆ خوا ئێستا زیاد لە ٤٠٠٠ کەس سودمەندن لە پۆستەکانمان <br>
-				لە چەناڵەکەمان ڕۆژانە فێرکاری و زانیاری بەسود دائەنێن دەربارەی هەموو سیستەمەکان و بین کۆد زانیاری زیاتریش</p>
- 
-			</div>
-		<center>
-				<p style="color: #808080;margin-top:-20px;" id="info_label"></p>
-			</center>
-			
-		</div>
-		<div class="tab page-content" id="appsTab">
-			<div class="block-title" style="text-align: right;">به‌شه‌كان</div>
-			<div class="list media-list" id="all">
-				<ul>
-					<li>
-						<a href="#" style="color: inherit;" class="popup-open" data-popup="#socialmedia">
-						<div class="item-content">
-							<div class="item-media">
-								<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/plus.png">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<div class="item-title">تۆڕەکان</div>
-								</div>
-								<div class="item-title-row">
-									<div class="item-subtitle">زیادکراو بۆ تۆرەکۆمەڵایەتیەکان</div>
-								</div>
-							</div>
-						</div>
-						</a>
-					</li>
-					<li>
-						<a href="#" style="color: inherit;" class="popup-open" data-popup="#other-popup">
-						<div class="item-content">
-							<div class="item-media">
-								<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/apps.png">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<div class="item-title">ئه‌په‌كان</div>
-								</div>
-								<div class="item-title-row">
-									<div class="item-subtitle">كراككراو زیادكراوه‌كان</div>
-								</div>
-							</div>
-						</div>
-						</a>
-					</li>
-					<li>
-						<a href="#" style="color: inherit;" class="popup-open" data-popup="#storek">
-						<div class="item-content">
-							<div class="item-media">
-								<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="img/store.png">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<div class="item-title">جه‌ڵبرێك</div>
-								</div>
-								<div class="item-title-row">
-									<div class="item-subtitle">ئه‌وه‌ ئه‌پانه‌ی جه‌ڵبرێكی پێ ئه‌كرێ	</div>
-								</div>
-							</div>
-						</div>
-						</a>
-					</li>
-					<li>
-
-					</li>
-				</ul>
-			</div>
-		</div>				
-<div class="tab page-content" id="server">
-	<div class="block-title" style="text-align: right;">سێرفەرەکانی مارکێتەکانی تر</div>
-	<div class="list media-list" id="all">
-		<ul>
-				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/videostarpro.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostarpro.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">Video Star Pro</div>
-							<div class="item-title" style="color: #808080">v6.1</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">هه موو به شه کانی كراوه</div>
-							<div class="item-subtitle" style="color: #808080">142.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-			<li>		
-				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/videostar.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostar.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">VideoStar++</div>
-							<div class="item-title" style="color: #808080">v6.1</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">کیشه ی ترانسفورم و کود چاکراوه</div>
-							<div class="item-subtitle" style="color: #808080">131.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-			<li>
-
-								<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/org2023.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/org2023.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">Org 2023</div>
-							<div class="item-title" style="color: #808080">v9.4</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">(cancel) په نجه له کړین بده دواتر </div>
-							<div class="item-subtitle" style="color: #808080">82.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-			<li>
-								<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/ppsspp.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/ppsspp.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">ppsspp</div>
-							<div class="item-title" style="color: #808080">v14.1</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">دابه زاندنی یاری پله سته یشن</div>
-							<div class="item-subtitle" style="color: #808080">36.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-			<li>
-								<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/Esign.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/esign.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">Esign</div>
-							<div class="item-title" style="color: #808080">v10.4</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">ipa دابه زاندني</div>
-							<div class="item-subtitle" style="color: #808080">12.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-			<li>
-								<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/ithunder.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/ithunder.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">iThunder</div>
-							<div class="item-title" style="color: #808080">v12.9</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">ipa دابه زاندني</div>
-							<div class="item-subtitle" style="color: #808080">9.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-			<li>
-								<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/tiktok.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/tiktok.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">TikTok</div>
-							<div class="item-title" style="color: #808080">v9.2</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">هه موو به شه کان كراوه</div>
-							<div class="item-subtitle" style="color: #808080">232.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-			<li>
-								<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/instagram.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/instagram.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">Instagram</div>
-							<div class="item-title" style="color: #808080">v10.5</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">هه موو به شه کان كراوه</div>
-							<div class="item-subtitle" style="color: #808080">126.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/snapchat2.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/snapchat2.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">Snapchat 2</div>
-							<div class="item-title" style="color: #808080">v9.1</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">زور تایبه ت مه ندی تیدایه هاك كراو</div>
-							<div class="item-subtitle" style="color: #808080">84.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-			<li>
-				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-				<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/snapchatpremium.plist'" class="item-content">
-					<div class="item-media">
-						<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/snapchatpremium.png">
-					</div>
-					<div class="item-inner">
-						<div class="item-title-row">
-							<div class="item-title">Snapchat Premium</div>
-							<div class="item-title" style="color: #808080">v9.1</div>
-						</div>
-						<div class="item-title-row">
-							<div class="item-subtitle">وه ر گرتنی باجی ره ش گولد ستار      </div>
-							<div class="item-subtitle" style="color: #808080">86.MB</div>
-						</div>
-					</div>
-				</div>
-				</a>
-			</li>
-				</li>
-			</li>
-		</ul>
-	</div>
-</div>
-
-
-		
-		<div class="tab page-content" id="creditsTab">
-			<div class="block-title" style="text-align: right;">به‌ڕێوبه‌ر</div>
-			<div class="list media-list">
-				<ul>
-					<li>
-						<div onclick="location='https://t.me/OMK0O'" class="item-content">
-							<div class="item-media">
-								<img style="width:50px;height:50px;border-radius:30%;background-color:black;" src="img/omko.png">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<div class="item-title">@OMK0O 95</div>
-								</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<div class="item-title">به‌ڕێوبه‌ر</div>
-								</div>
-							</div>
-						</div>
-					</li>
-					<li>
-
-	<div onclick="location='https://t.me/OMKO_STORE'" class="item-content">
-							<div class="item-media">
-								<img style="width:50px;height:50px;border-radius:30%;background-color:black;" src="img/omkostore.png">
-							</div>
-							<div class="item-inner">
-								<div class="item-title-row">
-									<div class="item-title">@OMKO-STORE</div>
-								</div>
-								<div class="item-inner">
-									<div class="item-title-row">
-										<div class="item-title">‎چەناڵ</div>
-								</div>
-							</div>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="popup" id="dl-popup">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">...دابه‌زاندن</div>
-							<div class="title-large">
-								<div class="title-large-text" style="text-align:right">...دابه‌زاندن</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-					<div class="page-content">
-						<div style="margin-top:53px;padding:0px;" class="block">
-							<img style="width:100%;" src="img/dl.png">
-							<div class="block-title" style="margin-top: 1.25%; text-align: right;">ئه‌م كێشه‌یه‌چیه‌؟</div>
-							<div class="block block-strong">
-								<h2 style="text-align: center;">"Untrusted Enterprise Developer"?</h2>
-								<p style="text-align: right;">تۆ پێویسته‌ ڕه‌زامه‌ندی ده‌رببڕیت بۆ ئه‌وه‌ی كه‌ ئه‌په‌كه‌ كاركات بۆ ئه‌مه‌<br> Settings بڕۆ > General > Profiles And Device Management > ده‌ستبنێ به‌‌زیاد كراو > Trust ده‌ست بنێ .</p>
-								<h2 style="text-align: right;">بۆ تروست نابێت؟</h2>
-								<p style="text-align: right;">ئه‌گه‌ر توشی ئه‌م حاله‌ته‌بوویت ئه‌وه‌ كره‌یتفی ئه‌په‌كه‌ به‌سه‌ر چووه‌ پێویسته‌ نوێ كرێته‌وه‌ له‌لایه‌ن نە بۆ ئاگادار بوون له‌ نوێ بوونه‌ .جۆینی چه‌ناڵن به‌ له‌ ته‌له‌گرام<br>(<span onclick="location='https://t.me/OMKO_STORE'"><a href="https://t.me/OMK0O"> @OMKO-STORE </a></span>)</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-
-
-		<div class="popup" id="dl-popup">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">...دابه‌زاندن</div>
-							<div class="title-large">
-								<div class="title-large-text" style="text-align:right">...دابه‌زاندن</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-					<div class="page-content">
-						<div style="margin-top:53px;padding:0px;" class="block">
-							<img style="width:100%;" src="img/dl.png">
-							<div class="block-title" style="margin-top: 1.25%; text-align: right;">ئه‌م كێشه‌یه‌چیه‌؟</div>
-							<div class="block block-strong">
-								<h2 style="text-align: center;">"Untrusted Enterprise Developer"?</h2>
-								<p style="text-align: right;">تۆ پێویسته‌ ڕه‌زامه‌ندی ده‌رببڕیت بۆ ئه‌وه‌ی كه‌ ئه‌په‌كه‌ كاركات بۆ ئه‌مه‌<br> Settings بڕۆ > General > Profiles And Device Management > ده‌ستبنێ به‌‌زیاد كراو > Trust ده‌ست بنێ .</p>
-								<h2 style="text-align: right;">بۆ تروست نابێت؟</h2>
-								<p style="text-align: right;">ئه‌گه‌ر توشی ئه‌م حاله‌ته‌بوویت ئه‌وه‌ كره‌یتفی ئه‌په‌كه‌ به‌سه‌ر چووه‌ پێویسته‌ نوێ كرێته‌وه‌ له‌لایه‌ن نە بۆ ئاگادار بوون له‌ نوێ بوونه‌ .جۆینی چه‌ناڵن به‌ له‌ ته‌له‌گرام<br>(<span onclick="location='https://t.me/OMK0O'"><a href="https://t.me/OMKO_STORE">@OMKO-STORE</a></span>)</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-
-
-
-	<div class="popup" id="soon">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">بەم زوونە</div>
-							<div class="title-large">
-								<div class="title-large-text" style="text-align:right">بەم زوونە</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-				
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-
-
-
-		<div class="popup" id="fixxx1">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">ڕێگای یه‌که‌م</div>
-							<div class="title-large">
-								<div class="title-large-text" style="text-align:right">ڕێگای یه‌که‌م</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-					<div class="page-content">
-						<div style="margin-top:53px;padding:0px;" class="block">
-							<div class="block block-strong">
-								<p style="text-align: center;"> "settings"  سەرەتا بچۆ</p>
-								<p style="text-align: center;">دواتر دەستێک بنێ بەو وایفایە کە کراوەتەوە لات  وەرە خوارەوە 
-									برۆ بەشی Automatic
-									بیکە بە Configure Proxy </p>
-								<img style="width:100%;" src="img/fiiii1.jpg">
-								<p style="text-align: center;">url  ئەم لینکە دانێ
-								<br>"http://ffapple.com" </p>
-								<img style="width:100%;" src="img/app.png">
-								<p style="text-align: right;">پاشان خەتت بکوژنێەوە برۆ سەفەری کەڵێر داتا بکە ئینجا خەت بکەرەوە بەرنامەی مەبەست دابەزێنە</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-
-
-		<div class="popup" id="reprovision">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">reprovision</div>
-							<div class="title-large">
-								<div class="title-large-text">reprovision</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-					<div class="page-content">
-						<div style="margin-top:53px;padding:0px;" class="block">
-							<div class="block-title" style="margin-top: 1.25%; text-align: right;">چارەسەری ڕیڤۆک بوونی ئەپەکان</div>
-							<div class="block block-strong">
-							<h2 style="text-align: right;">سەرەتا:ڕیپڤژن چیە؟</h2>
-							<p style="text-align: right;">  ڕیپڤژن بەرنامەیەکە بۆ ئنیستاڵکردنی بەرنامەکانی دەرەوەی ئەپستۆر کە لەشێوەی ئایپی ئەیان یان نوێ کردنەوەی بەرنامەکان لەسەر ئەپڵ ئایدی خۆت بۆ ٧ ڕۆژ بەبەردەوامی</p>
-							<p style="text-align: right;">________________________</p>
-							<h2 style="text-align: right;">دابەزاندنی بە سیدیا</h2>
-							<p style="text-align: right;">سەرەتا پێویسته‌ ئەم سۆرسە زیادبکەی لە سیدیا </p>
-							<p style="text-align: right;">سۆرسی</p>
-							<h3 style="text-align: center;">"https://repo.packix.com"</h3>
-							<p style="text-align: center;">(<span onclick="location='cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.packix.com'"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://repo.packix.com">زیاکردن ڕاستەوخۆ بۆ سیدیا</a></span>)</p>
-							<p style="text-align: right;">پاشان ئەم تویکە دابەزێنە لە سیدیا </p>
-							<h3 style="text-align: center;">"ReProvision Reborn"</h3>
-
-
-
-		
-
-		<div class="popup" id="appleidd">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">ئەڵت ستۆری</div>
-							<div class="title-large">
-								<div class="title-large-text">ئەڵت ستۆری</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-					<div class="page-content">
-						<div style="margin-top:53px;padding:0px;" class="block">
-							<img style="width:100%;" src="img/altstotre.png">
-							<div class="block-title" style="margin-top: 1.25%; text-align: right;">چارەسەری ڕیڤۆک بوونی ئەپەکان</div>
-							<div class="block block-strong">
-							<h2 style="text-align: right;">سەرەتا: ئەڵت ستۆری چیە؟</h2>
-							<p style="text-align: right;"> ئەڵت ستۆری بەرنامەیەکە بۆ ئنیستاڵکردنی بەرنامەکانی دەرەوەی ئەپستۆر کە لەشێوەی ئایپی ئەیان</p>
-							<p style="text-align: right;">  ئاسای خۆی لەڕێگای کۆمپیتەر ئنیستاڵ ئەکرێ </p>
-							<p style="text-align: right;">وە پێویستی بە سیدیا نابێت<br>(<span onclick="location='https://t.me/OMK0O'"><a href="https://t.me/OMKO_STORE">بینینی فێرکاریکەی بێ سیدیا</a></span>)</p>
-							<p style="text-align: right;">________________________</p>
-							<h2 style="text-align: right;">دابەزاندنی بە سیدیا</h2>
-							<p style="text-align: right;">سەرەتا پێویسته‌ ئەم تویکە دابەزێنین لە سیدیا </p>
-							<p style="text-align: right;">سۆرسی تویک </p>
-							<h3 style="text-align: center;">"https://cydia.akemi.ai/"</h3>
-							<p style="text-align: center;">(<span onclick="location='cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.akemi.ai/'"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://cydia.akemi.ai/">زیاکردن ڕاستەوخۆ بۆ سیدیا</a></span>)</p>
-							<p style="text-align: right;">ناوی تویک </p>
-							<h3 style="text-align: center;">"appsync unified"</h3>
-							<p style="text-align: right;">پاشان ئەڵتستۆری دابەزێنە<br>(<span onclick="location='itms-services://?action=download-manifest&url=https://www.kurdstore.info/ios/alt.plist'"><a href="itms-services://?action=download-manifest&url=https://www.kurdstore.info/ios/alt.plist">لێرە-install</a></span>)<br>پاشان پێوستیمان بە تویکێکی تر ئەبێت</p>
-                            <p style="text-align: right;">سۆرسی تویک </p>
-							<h3 style="text-align: center;">"http://cydia.kiiimo.org/"</h3>
-							<p style="text-align: center;">(<span onclick="location='cydia://url/https://cydia.saurik.com/api/share#?source=http://cydia.kiiimo.org/'"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=http://cydia.kiiimo.org/">زیاکردن ڕاستەوخۆ بۆ سیدیا</a></span>)</p>
-							<p style="text-align: right;">ناوی تویک </p>
-							<h3 style="text-align: center;">"altdaemon"</h3>
-							<p style="text-align: right;">پاشان بڕۆ ئەڵت ستۆری بەرنامەیەک ئینساڵکە دوای ئەپڵ ئایدیمان لێ ئەکات داخڵبە پاشان ڕێفرێشکە ئەبینین دوو ئەڵتستۆری لە ناو مۆبایلەکەمان هەیە ئەوەی یەکەم جار دامانبەزاند بیسڕەوە لەگەڵ یەکەم تویک کەناوی<br>appsync unified</p>
-							<p style="text-align: right;">ئەڵتستۆرە تازەکە بێکێشە کار ئەکات</p>
-
-        		<div class="popup" id="appleid">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">ئەپڵ ئایدی</div>
-							<div class="title-large">
-								<div class="title-large-text">ئەپڵ ئایدی</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-					<div class="page-content">
-						<div style="margin-top:53px;padding:0px;" class="block">
-							<img style="width:100%;" src="img/appleid.png">
-							<div class="block-title" style="margin-top: 1.25%; text-align: right;">هەنک لەیاری و بەرنامە بەپارەکانی تیایە</div>
-							<div class="block block-strong">
-							<h2>email:arynawzad81@gmail.com<br>password:Ferkaribokurd1</h2>
-							<p style="text-align: right;">بەهیچ شێوەیەک لە ئایکڵۆد داغڵی مەکە باتوشی کێشە نەبی و زانیاریەکانت نەڕوات بۆ کەسێکی تر<br>ئێمە بەرپرسنین لە هیچ شتێک ئایکڵۆد بۆ کەس لانابەین<br>تکایە ئەگەر کارت پێ نەما لای خۆت دایخەرەوە با کەسێکی تر سودمەند بێ</p>
-								<h2 style="text-align: right;">داغڵ نابێ؟</h2>
-								<p style="text-align: right;">ئەگەر داغڵ نەبوو ئەوە لۆک بووە یان دیسەیبڵ پێویستەلەلایەن ئەدمینەوە بکرێتەوە لە گرووپ نامەیان بۆ بنێرە<br>(<span onclick="location='https://t.me/OMK0O'"><a href="https://t.me/OMKO_STORE">@ferkaribokurd11</a></span>)</p>
-						
-
-		<div class="popup" id="jbs-popup">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">جه‌ڵبرێك</div>
-							<div class="title-large">
-								<div class="title-large-text">جه‌ڵبرێك</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-					<div class="page-content">
-						<div style="margin-top:53px;padding:0px;" class="block">
-							<div class="block-title" style="margin-left: 15px;margin-top: 75px;">ئه‌په‌كان</div>
-							<div class="list media-list" id="all">
-								<ul>
-																		<li>
-										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-										<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/unc0ver.plist'" class="item-content">
-											<div class="item-media">
-												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/unc0ver.png">
-											</div>
-											<div class="item-inner">
-												<div class="item-title-row">
-													<div class="item-title">unc0ver</div>
-													<div class="item-title" style="color: #808080">v6.1.1</div>
-												</div>
-												<div class="item-title-row">
-													<div class="item-subtitle">هه موو به شه کانی كراوه</div>
-													<div class="item-subtitle" style="color: #808080">12.MB</div>
-												</div>
-											</div>
-										</div>
-										</a>
-									</li>
-														 			</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		<div class="popup" id="socialmedia">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">تۆڕەکان</div>
-							<div class="title-large">
-								<div class="title-large-text">تۆڕەکان</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-					<div class="page-content">
-						<div style="margin-top:53px;padding:0px;" class="block">
-							<div class="block-title" style="margin-left: 15px;margin-top: 75px;">ئه‌په‌كان</div>
-							<div class="list media-list" id="all">
-								<ul>
-																		<li>
-										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-										<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/snapchat2.plist'" class="item-content">
-											<div class="item-media">
-												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/snapchat2.png">
-											</div>
-											<div class="item-inner">
-												<div class="item-title-row">
-													<div class="item-title">Snapchat 2</div>
-													<div class="item-title" style="color: #808080">v282.0</div>
-												</div>
-												<div class="item-title-row">
-													<div class="item-subtitle">زور تایبه ت مه ندی تیدایه هاك كراو</div>
-													<div class="item-subtitle" style="color: #808080">84.MB</div>
-												</div>
-											</div>
-										</div>
-										</a>
-									</li>
-																		<li>
-										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-										<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/snapchatpremium.plist'" class="item-content">
-											<div class="item-media">
-												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/snapchatpremium.png">
-											</div>
-											<div class="item-inner">
-												<div class="item-title-row">
-													<div class="item-title">Snapchat Premium</div>
-													<div class="item-title" style="color: #808080">v153.0</div>
-												</div>
-												<div class="item-title-row">
-													<div class="item-subtitle">وه ر گرتنی باجی ره ش گولد ستار   </div>
-													<div class="item-subtitle" style="color: #808080">84.MB</div>
-												</div>
-											</div>
-												
-						<li>
-										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-										<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/instagram.plist'" class="item-content">
-											<div class="item-media">
-												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/instagram.png">
-											</div>
-											<div class="item-inner">
-												<div class="item-title-row">
-													<div class="item-title">Instagram</div>
-													<div class="item-title" style="color: #808080">v10.5</div>
-												</div>
-												<div class="item-title-row">
-													<div class="item-subtitle">هه موو به شه کان كراوه</div>
-													<div class="item-subtitle" style="color: #808080">126.MB</div>
-												</div>
-											</div>								
-											
-										
-										</div>
-										</a>
-									</li>
-																		<li>
-										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-										<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/tiktok.plist'" class="item-content">
-											<div class="item-media">
-												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/tiktok.png">
-											</div>
-											<div class="item-inner">
-												<div class="item-title-row">
-													<div class="item-title">TikTok</div>
-													<div class="item-title" style="color: #808080">v153.0</div>
-												</div>
-												<div class="item-title-row">
-													<div class="item-subtitle">هه موو به شه کان كراوه</div>
-													<div class="item-subtitle" style="color: #808080">232.MB</div>
-												</div>
-											</div>
-											
-										</div>
-										</a>
-
-		<div class="popup" id="other-popup">
-			<div class="view">
-				<div class="page">
-					<div class="navbar navbar-large">
-						<div class="navbar-bg"></div>
-						<div class="navbar-inner">
-							<div class="title sliding">ئه‌په‌كان / زیادكراوه‌كان</div>
-							<div class="title-large">
-								<div class="title-large-text">‌‌هاكراو كان‌</div>
-							</div>
-							<div class="right">
-								<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-							</div>
-						</div>
-					</div>
-					<div class="page-content">
-						<div style="margin-top:53px;padding:0px;" class="block">
-							<div class="block-title" style="margin-left: 15px;margin-top: 75px;">ئه‌په‌كان</div>
-							<div class="list media-list" id="all">
-								<ul>
-									<li>
-																				<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-										<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/videostarpro.plist'" class="item-content">
-											<div class="item-media">
-												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostarpro.png">
-											</div>
-											<div class="item-inner">
-												<div class="item-title-row">
-													<div class="item-title">Video Star Pro</div>
-													<div class="item-title" style="color: #808080">v8.3.2</div>
-												</div>
-												<div class="item-title-row">
-													<div class="item-subtitle">کردنه وه ی هه موو به شه کان </div>
-													<div class="item-subtitle" style="color: #808080">142.MB</div>
-												</div>
-											</div>
-										</div>
-										</a>
-									</li>
-																		<li>
-										<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-										<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/videostar.plist'" class="item-content">
-											<div class="item-media">
-												<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/videostar.png">
-											</div>
-											<div class="item-inner">
-												<div class="item-title-row">
-													<div class="item-title">videostar++</div>
-													<div class="item-title" style="color: #808080">v8.3.2</div>
-												</div>
-												<div class="item-title-row">
-													<div class="item-subtitle">کیشه ی ترانسفورم و کود چاکراوه</div>
-													<div class="item-subtitle" style="color: #808080">131.MB</div>
-												</div>
-											</div>
-										</div>
-										</a>
-									</li>
-																		<li>
-											<div class="popup" id="storek">
-												<div class="view">
-													<div class="page">
-														<div class="navbar navbar-large">
-															<div class="navbar-bg"></div>
-															<div class="navbar-inner">
-																<div class="title sliding">ستۆرەکان</div>
-																<div class="title-large">
-																	<div class="title-large-text">ستۆرەکان</div>
-																</div>
-																<div class="right">
-																	<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-																</div>
-															</div>
-														</div>
-														<div class="page-content">
-															<div style="margin-top:53px;padding:0px;" class="block">
-																<div class="block-title" style="margin-left: 15px;margin-top: 75px;">ئه‌په‌كان</div>
-																<div class="list media-list" id="all">
-																	<ul>
-																											<li>
-																			<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-																			<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/Esign.plist'" class="item-content">
-																				<div class="item-media">
-																					<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/esign.png">
-																				</div>
-																				<div class="item-inner">
-																					<div class="item-title-row">
-																						<div class="item-title">Esign</div>
-																						<div class="item-title" style="color: #808080">v7</div>
-																					</div>
-																					<div class="item-title-row">
-																						<div class="item-subtitle">ipa دابه زاندني</div>
-																						<div class="item-subtitle" style="color: #808080">12.MB</div>
-																					</div>
-																				</div>
-																			</div>
-																			</a>
-																		</li>
-                                                                        <li>
-																			<a href="#" style="color: inherit;" class="popup-open" data-popup="#dl-popup">
-																			<div onclick="location='itms-services://?action=download-manifest&url=https://omkostore.netlify.app/plist/ithunder.plist'" class="item-content">
-																				<div class="item-media">
-																					<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/ithunder.png">
-																				</div>
-																				<div class="item-inner">
-																					<div class="item-title-row">
-																						<div class="item-title">iThunder</div>
-																						<div class="item-title" style="color: #808080">v1.6</div>
-																					</div>
-																					<div class="item-title-row">
-																						<div class="item-subtitle">ipa دابه زاندني</div>
-																						<div class="item-subtitle" style="color: #808080">9.MB</div>
-																					</div>
-																				</div>
-																			</div>
-																			</a>
-																		</li>
-																							
-															</div>
-														</div>
-													</div>
-													<div class="page-content">
-														<div style="margin-top:53px;padding:0px;" class="block">
-																						<li>
-
-
-											</div>
-											</div>
-										</div>
-										</a>
-																	</a>	
-																</li>
-												<div class="popup" id="fixing">
-												<div class="view">
-													<div class="page">
-														<div class="navbar navbar-large">
-															<div class="navbar-bg"></div>
-															<div class="navbar-inner">
-																<div class="title sliding">کورد ستۆر</div>
-																<div class="title-large">
-																	<div class="title-large-text">کورد ستۆر</div>
-																</div>
-																<div class="right">
-																	<a href="#" class="link popup-close" style="padding-top:10px;margin:0;padding-right: 12.5px">داخستن</a>
-																</div>
-															</div>
-														</div>
-														<div class="page-content">
-															<div style="margin-top:53px;padding:0px;" class="block">
-																<div class="block-title" style="margin-left: 15px;margin-top: 75px;">هەنگاوەکان</div>
-																<div class="list media-list" id="all">
-																	<ul>
-																											<li>
-																			<a href="#" style="color: inherit;" class="popup-open" data-popup="#fixxx1">
-																			<div onclick="#" class="item-content">
-																				<div class="item-media">
-																					<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/fix1.png">
-																				</div>
-																				<div class="item-inner">
-																					<div class="item-title-row">
-																						<div class="item-title">ڕێگای یه‌که‌م</div>
-																						<div class="item-title" style="color: #808080">@OMK0O</div>
-																					</div>
-																					<div class="item-title-row">
-																						<div class="item-subtitle">Test first</div>
-																						<div class="item-subtitle" style="color: #808080"></div>
-																					</div>
-																				</div>
-																			</div>
-																			</a>
-																		</li>
-                                                                        <li>
-																			<a href="#" style="color: inherit;" class="popup-open" data-popup="#soon">
-																			<div onclick="#" class="item-content">
-																				<div class="item-media">
-																					<img style="width:50px;height:50px;border-radius:30%;background-color:none;" src="cdn/images/fix2.jpg">
-																				</div>
-																				<div class="item-inner">
-																					<div class="item-title-row">
-																						<div class="item-title">ڕێگای دووه‌م</div>
-																						<div class="item-title" style="color: #808080">@OMK0O</div>
-																					</div>
-																					<div class="item-title-row">
-																						<div class="item-subtitle">Test Second</div>
-																						<div class="item-subtitle" style="color: #808080"></div>
-																					</div>
-																				</div>
-																			</div>
-																			</a>
-																		</li>
-									</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			</div>
-		</div>
-		</div>
-	</div>
-	</div>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://gmpg.org/xfn/11" rel="profile" />
+    <title>OMKO STORE - CCGen - Credit Card Generator</title>
+	<meta name="description" content="OMKO STORE is random credit card generator that users can use to generate random credit card numbers for testing their developement interface." />
+	<meta name="robots" content="follow,index" />
+    <meta property="og:image" content="https://namsogen.co/assets/img/allbins-namsogen.jpg"/>
+    <meta property="og:image:width" content="512"/>
+    <meta property="og:image:height" content="512"/>
+	<link rel="canonical" href="https://allbins.co/namso-gen/"/>
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="Namso Gen - CCGen - Credit Card Generator">
+	<meta property="og:description" content="Namso Gen is random credit card generator that users can use to generate random credit card numbers for testing their developement interface.">
+	<meta property="og:url" content="https://allbins.co/namso-gen/">
+	<meta property="og:site_name" content="AllBins">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Namso Gen - CCGen - Credit Card Generator">
+	<meta name="twitter:description" content="Namso Gen is random credit card generator that users can use to generate random credit card numbers for testing their developement interface.">
+	      <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "name": "AllBins",
+  "url": "https://allbins.co/",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://allbins.co/?s={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Namso Gen",
+    "description": "Namso Gen is random credit card generator that users can use to generate random credit card numbers for testing their developement interface.",
+    "url" : "https://allbins.co/namso-gen/",
+    "publisher": {
+        "@type": "Person",
+        "name": "Admin"
+    }
+}
+</script>
 	
-		<script src="framework7/js/framework7.bundle.min.js"></script>
-		<script src="js/routes.js"></script>
-		<script src="js/app.js"></script>
-		<script src="js/inobounce.js"></script>
-		<script type="text/javascript">
-			document.getElementById("info_label").innerHTML = ((navigator.userAgent).match(/OS (\d)?\d_\d(_\d)?/i)[0].replace(/_/g,".").replace("OS","iOS") + " - Copyright © 2023 by OMKO STORE v2.0");
-		</script>
-	</body>
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+ <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
 
+	<!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.css" integrity="sha512-CaTMQoJ49k4vw9XO0VpTBpmMz8XpCWP5JhGmBvuBqCOaOHWENWO1CrVl09u4yp8yBVSID6smD4+gpzDJVQOPwQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	 <link rel="stylesheet" href="assets/css/style.css">
+
+
+	
+	<link as="style" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300italic,300,400italic,600&amp;subset=latin,latin-ext" id="hu-user-gfont" onload="this.onload=null;this.rel='stylesheet'" rel="preload" type="text/css" /><script type='text/javascript' src='wp-includes/js/jquery/jquery.js'></script>
+	
+	 	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!--Vendor JS Files 
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script> 
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script> -->
+
+  <!-- Template Main JS File -->
+ <!-- <script src=""></script>-->
+  <script type="text/javascript">jQuery.noConflict(true);
+  
+    // <!-- Vendor CSS Files -->
+ //<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+ //<link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+ //<link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+ //<link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+ //<link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+ //<link href="assets/vendor/aos/aos.css" rel="stylesheet"> 
+
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+
+<meta name="google-site-verification" content="trom_xmcHa1EPaUp0NFoLPbRrBjCtE7ppjQFyc-TXFo" />
+<meta name="msvalidate.01" content="62DD8257148113C5DA91B316E3FA52C8" />
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-107209422-35"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107209422-35');
+</script>
+ <meta name='ir-site-verification-token' value='-515337847'>
+     
+
+
+	
+</head>
+<body class="bg-light" onload="inital_setup();" style="background-color:#203647 !important;">
+	
+<style>
+   
+</style>
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top"  style="background-color:#203647 !important;">
+			
+		<div class="container">
+			<a href="/namso-gen/" class="navbar-brand">OMKO STORE</a>
+		
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="myNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a href="/" class="nav-link active">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="/" class="nav-link">Latest BINs</a>
+					</li>
+					<li class="nav-item">
+						<a href="../about-us.html" class="nav-link">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a href="../contact-us.html" class="nav-link">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a href="../privacy-policy.html" class="nav-link">Privacy Policy</a>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+	
+	</nav>	
+	
+		<section class="text-white">
+			<div class="container">
+				<div class="bg-white my-3 py-2 border-bottom px-3" style="background-color:#12232E !important;">
+					<h2 class="h6">OMKO STORE| CCGEN| NAMSO CCGEN V5 |NANSO GEN</h2>
+					<h2 class="h6">GENEARTE RANDOM CREDIT CARD NUMBER EASILY</h2>
+					
+				</div>
+
+			</div>
+		</section>
+		<section class="text-white" >
+			<div class="container"> 			
+							<div class="bg-white p-3 border rounded"  style="background-color:#12232E !important;">
+								<form action="result.html" id="console" method="POST" name="console" role="form">
+
+														
+											<label class="form-label">BIN: 45233xxxxxxxxx</label> <br>
+											<input class="form-control-lg bg-light p-2 w-100" style="outline: 3px solid #007CC7; background-color:#EEFBFB !important;" id="ccpN" maxlength="19" name="ccp" placeholder="xxxx xxxx xxxx xxxx" type="text" value="" required>
+											<p><select class="input_text" name="ccnsp" style="display: none;">
+															<option selected="selected">Nenhum</option>
+														</select>
+													</p>
+											<div id="mobp">
+													<label class="form-label mt-3">Include</label> 
+
+													<div class="bg-light border border-2 border-secondary p-2 rounded" style="background-color:#EEFBFB !important;" >
+														<label style="color:#203647 !important;">Data <input checked id="ccexpdat" name="ccexpdat" type="checkbox"/> </label>
+														<label style="color:#203647 !important;">CCV2 <input checked id="ccvi" name="ccvi" type="checkbox"/></label>
+														<label style="color:#203647 !important;">Bank Detail <input id="ccbank" name="ccbank" type="checkbox"/></label>
+													</div>
+											</div>
+
+                                  <div class="row">
+                                    <div class="col-6">
+                                     <label class="form-label mt-3">Month</label>
+									<select class="form-select bg-light border border-2 border-secondary p-2 rounded w-100" style="background-color:#EEFBFB !important;" name="emeses">
+											<option value="rnd">Random</option>
+											<option value="01">01</option>
+											<option value="02">02</option>
+											<option value="03">03</option>
+											<option value="04">04</option>
+											<option value="05">05</option>
+											<option value="06">06</option>
+											<option value="07">07</option>
+											<option value="08">08</option>
+											<option value="09">09</option>
+											<option value="10">10</option>
+											<option value="11">11</option>
+											<option value="12">12</option>
+										</select>	
+                                    </div>
+                                    <div class="col-6">
+                                        	<label class="form-label mt-3">Year</label>
+										<select class="form-select bg-light border border-2 border-secondary p-2 w-100 rounded" style="background-color:#EEFBFB !important;" name="eyear">
+													<option value="rnd">Random</option>
+													<option value="2021">21</option>
+													<option value="2022">22</option>
+													<option value="2023">23</option>
+													<option value="2024">24</option>
+													<option value="2025">25</option>
+													<option value="2026">26</option>
+													<option value="2027">27</option>
+													<option value="2028">28</option>
+													<option value="2029">29</option>
+													<option value="2030">30</option>
+											</select>
+																								
+                                   	</div>
+                                  </div>
+													
+													
+								<div class="row">
+                                      <div class="col-4">
+                                                            
+                                       
+										<label class="form-label mt-3">CVV2</label>
+									<input class="form-control bg-light border border-2 border-secondary rounded w-100" style="background-color:#EEFBFB !important;" style="height:40%;" id="eccv" maxlength="4" name="eccv" placeholder="Random" type="text" value="rnd" />
+                                      </div>
+                                      <div class="col-4">
+                                        <label class="form-label mt-3">Quantity</label>
+			            					<input class="form-control bg-light border border-2 border-secondary p-3 rounded w-100" style="background-color:#EEFBFB !important;" style="height:40%;" maxlength="4" name="ccghm" type="number" value="10" />
+			            					
+                                      </div>
+                                    	<div class="col-4">
+                                         
+											<label class="form-label mt-3">Format</label>
+											<select class="form-select bg-light border border-2 border-secondary p-2 rounded w-100" style="background-color:#EEFBFB !important;" style="height:40%;" name="ccoudatfmt">
+													<option selected="selected" value="CHECKER">CHECKER</option>
+													<option value="CSV">CSV</option>
+													<option value="XML">XML</option>
+													<option value="JSON">JSON</option>									
+												</select>                  
+                                      </div>
+                                </div>
+									<p>
+								<div>
+								
+									<textarea  class="form-control output2 rounded-bottom-0" id="output2" name="output2" readonly="readonly" rows="10" placeholder="Get Credit Cards Here..." required style="display: none;"></textarea>
+								</div>
+								</p>
+
+								<center>
+									<input name="tr" type="hidden" value="1000" />
+									<input name="L" style="width: 20px;" type="hidden" value="1L" />
+								</center>	
+							
+									<div class="w-100">
+											<input type="submit" name="submit" class="h4 bg-dark text-white fw-bold border border-2 border-secondary p-2 rounded w-100 mt-3" style="background-color:#EEFBFB !important; color:#12232E !important; outline: 3px solid #007CC7;" id="generar" value="Generate Cards">	
+										</div>		
+										
+
+						</form>
+					</div>
+					<!--<div class="bg-white p-3 border rounded my-3">-->
+					<!--	<div class="w-100">-->
+					<!--		<input type="submit" name="submit" class="h4 bg-dark text-white fw-bold border border-2 border-secondary p-2 rounded w-100 mt-3" id="generar" form="console" value="Generate Cards">-->
+					<!--	</div>-->
+					<!--</div>	-->
+				</div>
+			</section>
+			
+			<section class="text-white">	
+			 <div class="container">
+				<div class="container">
+						<div class="row bg-white border rounded my-3 p-4 align-items-center" style="background-color:#12232E !important;color:#EEFBFB !important;">
+						<div class="col-lg-2 ">
+							<img src="assets/img/namsogen_description_logo.png" class="ms-auto d-none d-lg-block" style="height: 150px;width: 150px;">
+						</div>
+						<div class="col-lg-10">
+							<h3 class="h4">OMKO STORE - Random Credit Card Generator</h3>
+							<p class="lead">OMKO STORE is random credit card number generator which use it's programming alogorithm to create credit card numbers. These credit card number can help developers and tester to test their developement interface and checkout systems.</p> 
+						</div>
+						
+					</div>			
+				</div>
+			</div>						
+			</section>																				
+												
+		<footer class="bg-dark text-white p-5" style="background-color:#203647 !important;">
+			  
+				 <div class="container">
+			      <div class="row">
+
+			        <div class="col-lg-4 col-md-6">
+			          <h2>OMKO STORE</h2>
+			          <p class="px-2">OMKO STORE is random credit card generator that users can use to generate random credit card numbers for testing their developement interface.<br> You'll be responsible for using this tool.
+			          </p>
+			        </div>
+
+			        <div class="col-lg-4 col-md-6">
+			          <h4>Useful Links</h4>
+			          <ul>
+			             <li><a href="../about-us.html" class="text-white">About us</a></li>
+			            <li><a href="../contact-us.html" class="text-white">Contact us</a></li>
+			            <li><a href="../privacy-policy.html" class="text-white">Privacy policy</a></li>
+			          </ul>
+			        </div>
+
+			      </div>
+			    </div>
+ 
+
+				  <div class="container">
+				    <div class="text-center text-white h5">
+				      &copy; Copyright <a href="https://omkostore.netlify.app/" class="text-white">OMKO STORE</a>. All Rights Reserved
+				    </div>
+				    
+				  </div>
+
+</footer><!-- End Footer -->																
+			<script type='text/javascript' src='assets/js/app.js' defer="defer"></script>
+	<!-- <script type='text/javascript' src='js/custom-app.js' defer="defer"></script> -->
+	<script>
+		$(function() {
+			inital_setup();
+		});
+	</script>
+	
+</body>
 </html>
